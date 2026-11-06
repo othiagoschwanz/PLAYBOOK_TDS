@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="PLAYBOOK TDS">
+  <rect width="512" height="512" rx="116" fill="#050706"/>
+  <rect x="11" y="11" width="490" height="490" rx="107" fill="none" stroke="#455d29" stroke-width="3"/>
+  <circle cx="256" cy="256" r="173" fill="#111a10" stroke="#baff38" stroke-width="9"/>
+  <circle cx="256" cy="256" r="146" fill="none" stroke="#5d8732" stroke-width="3"/>
+  <circle cx="256" cy="256" r="115" fill="none" stroke="#5d8732" stroke-width="3"/>
+  <path d="M212 170 Q212 161 222 167 L362 249 Q373 256 362 263 L222 345 Q212 351 212 342Z" fill="#baff38"/>
+  <circle cx="256" cy="256" r="18" fill="#050706"/>
+  <circle cx="256" cy="256" r="8" fill="#e6ffc4"/>
+</svg>

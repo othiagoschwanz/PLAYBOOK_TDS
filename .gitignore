@@ -1,0 +1,11 @@
+.firebaserc
+.firebase/
+config.js
+node_modules/
+*.log
+dist/
+android/
+ios/
+.gradle/
+*.keystore
+*.jks

@@ -1,0 +1,6 @@
+{
+  "appId": "app.playbook.tds",
+  "appName": "PLAYBOOK",
+  "webDir": "dist/web",
+  "bundledWebRuntime": false
+}

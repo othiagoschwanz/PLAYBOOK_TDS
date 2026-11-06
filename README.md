@@ -2,129 +2,105 @@
 
 ### Transforme seus MP3 em uma experiência de audiolivro. Grátis, no seu aparelho.
 
-**PLAYBOOK** é um player gratuito, com interface pensada para escutar livros, aulas, palestras e outros áudios longos. Abra seus próprios MP3 e outros formatos de áudio compatíveis, marque trechos, ajuste a velocidade e retome a escuta de onde parou.
+**PLAYBOOK** é um player gratuito, com interface pensada para escutar livros, aulas, palestras e outros áudios longos. Abra seus próprios MP3 e outros formatos de áudio compatíveis, marque trechos, ajuste a velocidade e retome a escuta exatamente de onde parou.
 
-**Sem mensalidades. Sem conta obrigatória. Sem servidor obrigatório para reproduzir arquivos locais.**
+**Sem mensalidades. Sem conta obrigatória. Sem anúncios. Funciona 100% offline.**
 
+[![Abrir Player Online](https://img.shields.io/badge/▶_Abrir_Online-GitHub_Pages-baff38?style=for-the-badge&logo=googlechrome&logoColor=black)](https://othiagoschwanz.github.io/PLAYBOOK_TDS/)
 [![Estrelas](https://img.shields.io/github/stars/othiagoschwanz/PLAYBOOK_TDS?style=for-the-badge&label=Estrelas%20no%20GitHub)](https://github.com/othiagoschwanz/PLAYBOOK_TDS)
 [![Licença MIT](https://img.shields.io/badge/Licen%C3%A7a-MIT-2ea043?style=for-the-badge)](LICENSE)
 [![Gratuito](https://img.shields.io/badge/Gratuito-Sempre-77dd44?style=for-the-badge)](#pre%C3%A7o-e-privacidade)
 
-> ⭐ **Gostou da ideia? [Dê uma estrela neste repositório](https://github.com/othiagoschwanz/PLAYBOOK_TDS/stargazers)!** É a forma gratuita de apoiar e dar visibilidade ao projeto. Você pode baixar o código independentemente de dar uma estrela.
+> ⭐ **Gostou do projeto? [Deixe sua estrela neste repositório](https://github.com/othiagoschwanz/PLAYBOOK_TDS)!** É a forma gratuita de apoiar, incentivar melhorias e ajudar outras pessoas a encontrarem este player.
 
-## 📥 Downloads e versões
+---
 
-**Situação atual: versão V02 em desenvolvimento.** O código-fonte está disponível. Os instaladores para uso geral **ainda não foram publicados nem homologados**. Acompanhe a página de versões para saber quando houver pacotes prontos.
+## 🚀 Como usar agora mesmo (Versão Online / PWA)
+
+Você **não precisa instalar programas ou servidores** para começar:
+
+1. Acesse **[https://othiagoschwanz.github.io/PLAYBOOK_TDS/](https://othiagoschwanz.github.io/PLAYBOOK_TDS/)** no celular ou computador.
+2. *(Opcional, recomendado no celular)*: Toque em **Compartilhar / Menu do Navegador** e selecione **"Adicionar à Tela de Início"** ou **"Instalar Aplicativo"**. O player funcionará como um app nativo, com ícone próprio e tela cheia.
+3. Clique em **＋ Adicionar MP3 ao Aparelho** e selecione seus arquivos de áudio.
+4. **Pronto!** O arquivo é guardado no armazenamento seguro do seu navegador (**IndexedDB**). Você pode fechar a aba, desligar a internet ou reiniciar o aparelho: seu audiolivro continua guardado e continuará exatamente no segundo em que você pausou.
+
+---
+
+## ✨ Superpoderes de Audiolivro
+
+- 💾 **Armazenamento Seguro Local (IndexedDB):** Adicione seus MP3 uma vez. Eles ficam salvos no seu aparelho sem precisar reenviar o arquivo toda vez que abrir o app.
+- ⏱️ **Memória de Ponto Exato:** Salva automaticamente o segundo onde você parou. Volte horas ou dias depois e retome com um clique.
+- ⚡ **Velocidade com Preservação de Pitch:** Acelere para 1,25×, 1,5×, 1,75×, 2× ou 2,5× sem ficar com "voz fina de esquilo".
+- 🔄 **Saltos Rápidos:** Botões dedicados de −15 segundos (para rever uma frase que perdeu) e +30 segundos.
+- 🌙 **Modo Sono (Sleep Timer):** Programe para pausar automaticamente em 15, 30, 45, 60 minutos ou ao final do livro.
+- ♧ **Marcações (Bookmarks):** Salve trechos e insights importantes com marcação temporal em 1 clique.
+- 📴 **100% Offline:** Uma vez carregado, funciona em modo avião, sem sinal de celular ou sem gastar sua franquia de dados móveis.
+- 🎧 **Controle na Tela de Bloqueio (Media Session):** Pause, continue e pule trechos diretamente pela tela bloqueada do celular ou pelos botões do fone Bluetooth.
+- 🗑️ **Gerenciador de Espaço:** Remova qualquer audiolivro do aparelho a qualquer momento em um clique.
+
+---
+
+## 📥 Downloads e Instaladores Nativos
+
+Caso prefira rodar como aplicativo executável independente no computador ou celular:
 
 | Plataforma | Formato previsto | Situação |
 | :--- | :--- | :--- |
-| 🪟 Windows | Instalador `.exe` | ⏳ Em preparação |
-| 🤖 Android | Aplicativo `.apk` | ⏳ Em preparação; exige assinatura e testes em celular |
-| 🍎 macOS | Aplicativo `.dmg` | ⏳ Em preparação; pode exigir assinatura/notarização |
-| 📱 iPhone e iPad | Aplicação web instalável (PWA) ou app iOS | ⏳ Em preparação; distribuição nativa segue regras da Apple |
-| 🐧 Linux | `.AppImage` | ⏳ Em preparação |
+| 📱 **Web / PWA (Qualquer aparelho)** | Navegador / PWA | ✅ **Disponível online agora** |
+| 🪟 Windows | Instalador `.exe` (Electron) | ⏳ Em preparação / Código disponível |
+| 🤖 Android | Aplicativo `.apk` (Capacitor) | ⏳ Em preparação / Código disponível |
+| 🍎 macOS | Aplicativo `.dmg` (Electron) | ⏳ Em preparação / Código disponível |
+| 🐧 Linux | `.AppImage` (Electron) | ⏳ Em preparação / Código disponível |
 
-**Acessos úteis:** [📦 Ver downloads e versões](https://github.com/othiagoschwanz/PLAYBOOK_TDS/releases) · [⬇️ Baixar o código-fonte](https://github.com/othiagoschwanz/PLAYBOOK_TDS/archive/refs/heads/main.zip) · [⭐ Dar estrela](https://github.com/othiagoschwanz/PLAYBOOK_TDS)
+**Acessos úteis:** [📦 Ver releases e downloads](https://github.com/othiagoschwanz/PLAYBOOK_TDS/releases) · [⬇️ Baixar o código-fonte](https://github.com/othiagoschwanz/PLAYBOOK_TDS/archive/refs/heads/main.zip) · [⭐ Dar estrela no GitHub](https://github.com/othiagoschwanz/PLAYBOOK_TDS)
 
-⚠️ A página de versões pode estar vazia. **Não existe botão de instalação ativa enquanto o respectivo pacote não tiver sido efetivamente publicado.** Os arquivos gerados pelo fluxo de prévia são experimentais.
+---
 
-## ✨ Funcionalidades da versão atual
+## ☁️ Google Drive — Opcional
 
-- Reproduzir MP3, M4A, M4B e outros formatos aceitos pelo navegador ou sistema.
-- Pausar, continuar, avançar 30 segundos e voltar 15 segundos.
-- Selecionar velocidades de 0,75× a 2,5×.
-- Registrar o ponto de escuta e criar marcações.
-- Buscar títulos na biblioteca selecionada.
-- Interface responsiva, com controles de mídia onde o aparelho oferecer suporte.
-- Usar arquivos locais sem precisar contratar armazenamento ou criar conta no PLAYBOOK.
-- Integração **opcional** com Google Drive: por seletor de arquivos do sistema; na versão web, uma conexão direta pode ser configurada por quem hospedar o projeto.
+O PLAYBOOK foi desenhado prioritariamente para funcionar de forma privada com seus arquivos locais. 
+No entanto, também conta com módulo opcional para conexão direta à **Google Drive API** na versão web, caso deseje carregar arquivos diretamente da sua nuvem Google configurando um OAuth Client ID em `config.js`.
 
-**Limitação importante:** após fechar e reabrir o app, pode ser necessário selecionar os arquivos locais novamente. O progresso e as marcações ficam salvos **no mesmo aparelho/navegador**, mas ainda não há sincronização entre aparelhos. Reprodução em segundo plano e instaladores precisam ser validados em dispositivos reais.
+---
 
-## ▶️ Como usar
+## 🔒 Preço e Privacidade
 
-1. Abra a versão compatível com seu aparelho (quando disponibilizada), ou execute a versão web localmente.
-2. Clique em **Adicionar MP3** e escolha seus arquivos de áudio.
-3. Selecione um título e pressione **▶**.
-4. Ajuste a velocidade, avance/retroceda ou use **Marcar posição** para guardar um trecho.
-5. Se o arquivo estiver no Google Drive, use a opção **Arquivos** do seu aparelho, quando ela oferecer integração com o Drive. Dependendo do sistema, ele poderá baixar o MP3 antes de abrir.
+- **Custo do PLAYBOOK:** R$ 0; código 100% aberto sob licença MIT.
+- **Privacidade total:** Seus áudios nunca são enviados para servidores de terceiros. Ficam armazenados exclusivamente no seu próprio dispositivo.
+- **Sem anúncios ou rastreamento:** Zero telemetria, zero anúncios invasivos.
 
-O PLAYBOOK **não converte texto em voz, não cria narração por IA e não altera o conteúdo do MP3**. Ele oferece recursos de audiolivro para arquivos de áudio que você já possui.
+---
 
-## ☁️ Google Drive — opcional
+## 🛠️ Como rodar e compilar pelo código-fonte
 
-Cada pessoa usa os próprios arquivos. No Android ou iPhone, o acesso ao Drive pode depender do aplicativo Google Drive e do seletor de documentos do sistema.
-
-A conexão direta à **Google Drive API** é um recurso opcional para a versão web. Quem publicar sua própria instância precisará configurar um **OAuth Client ID** para o endereço HTTPS utilizado, habilitar a Drive API e observar o processo de consentimento/verificação do Google. O arquivo [`config.example.js`](config.example.js) mostra o formato esperado. **Jamais inclua senhas, client secrets ou tokens no código público.**
-
-A integração direta com login Google em apps nativos ainda não está pronta. Nenhuma conta pessoal do desenvolvedor é necessária para usar seus arquivos locais.
-
-## 🔒 Preço e privacidade
-
-- **Custo do PLAYBOOK:** R$ 0; o código está disponível sob licença MIT.
-- **Arquivos locais:** o player usa os arquivos escolhidos no próprio aparelho, sem enviá-los a um servidor do desenvolvedor.
-- **Progresso e marcações:** armazenados localmente pelo aplicativo/navegador, onde houver suporte.
-- **Google Drive:** caso conectado, o acesso ocorre com autorização da própria conta do usuário. O Google aplica suas próprias regras e limites; a API pode consumir rede e dados móveis.
-- **Hospedagem:** não é necessária para os instaladores locais. Para uma PWA acessível pela internet, é necessário um endereço HTTPS público, que pode usar uma hospedagem estática gratuita sujeita a termos e limites.
-
-## 🛠️ Rodar pelo código-fonte
-
-Para desenvolvedores, é necessário **Node.js 22+** e um navegador moderno.
+Para desenvolvedores que queiram testar ou compilar localmente:
 
 ```sh
+# Instalar dependências
 npm install
+
+# Executar testes automatizados
 npm test
+
+# Rodar servidor de desenvolvimento
 npm run dev
 ```
 
-Acesse **http://localhost:5173**. O arquivo `config.js` não é enviado ao GitHub: para desenvolvimento local, copie `config.example.js` para `config.js` e mantenha `googleClientId` em branco se não precisar do Google Drive.
+Acesse **http://localhost:5173**.
 
-Para montar os arquivos web estáticos:
-
+Para gerar o pacote estático para deploy:
 ```sh
 npm run build:web
 ```
 
-Os arquivos ficam em `dist/web/` com configuração neutra, sem vinculação à conta do desenvolvedor.
+---
 
-### Preparação dos instaladores
+## ⭐ Apoie o projeto
 
-O projeto contém estruturas de compilação para Electron (Windows/macOS/Linux) e Capacitor (Android/iOS). Essas estruturas precisam de ferramentas e validação próprias de cada plataforma:
-
-- Windows: `npm run build:windows`.
-- Android: `npm run mobile:android:init`, `npm run mobile:sync` e compilação com Android SDK.
-- macOS: `npm run build:mac`, em ambiente compatível.
-- Linux: `npm run build:linux`.
-- iOS: `npm run mobile:ios:init` e Xcode no macOS, seguindo as regras da Apple.
-
-O workflow [Preparar instaladores (prévia)](.github/workflows/build-preview.yml) pode ser executado manualmente no GitHub Actions. **Resultados da prévia não equivalem a um lançamento validado.** As versões definitivas exigem testes e assinatura consistente, especialmente no Android.
-
-## ❓ Perguntas frequentes
-
-**Preciso pagar para ouvir?** Não. O PLAYBOOK é gratuito; sua conexão de internet ou seu provedor de armazenamento podem ter custos próprios.
-
-**Preciso cadastrar meu Gmail?** Não. Arquivos locais funcionam sem login.
-
-**Funciona sem internet?** Arquivos locais podem ser reproduzidos offline. Arquivos do Drive precisam estar acessíveis ou previamente baixados.
-
-**Qualquer MP3 funciona?** O objetivo é suportar arquivos MP3 compatíveis. Arquivos corrompidos, protegidos por DRM ou codecs não suportados podem falhar.
-
-**O app transforma um PDF em voz?** Não. O PLAYBOOK reproduz áudio já existente, como MP3.
-
-**Vai lembrar onde parei?** O progresso é salvo no aparelho/navegador. Atualmente você pode precisar escolher o arquivo novamente quando reabrir.
-
-**Ouvirei no celular, mesmo longe do computador?** Sim, desde que o arquivo esteja acessível no celular ou por um serviço conectado e a versão escolhida funcione no aparelho.
-
-**Vai sincronizar entre meu Windows e o iPhone?** Ainda não. O progresso atual é local.
-
-**Já posso baixar APK ou EXE?** Ainda não há pacotes finais publicados; acompanhe a aba [Releases](https://github.com/othiagoschwanz/PLAYBOOK_TDS/releases).
-
-**Preciso dar ⭐ para instalar?** Não é obrigatório. Mas sua estrela ajuda muito a divulgar o PLAYBOOK. [Clique aqui para apoiar](https://github.com/othiagoschwanz/PLAYBOOK_TDS).
-
-**Posso modificar ou compartilhar o código?** Sim, conforme a [licença MIT](LICENSE).
+Se este player for útil nos seus estudos ou momentos de leitura, a melhor forma de ajudar é **[clicar na estrelinha (Star) no topo desta página](https://github.com/othiagoschwanz/PLAYBOOK_TDS)**. Isso ajuda o projeto a crescer e alcançar mais pessoas!
 
 ---
 
-**PLAYBOOK TDS** · Player gratuito de audiolivros · Desenvolvido com tecnologias web modernas e ferramentas multiplataforma.
+## 👨‍💻 Sobre o Criador
 
-[⭐ Apoie com uma estrela](https://github.com/othiagoschwanz/PLAYBOOK_TDS) · [📦 Acompanhe os lançamentos](https://github.com/othiagoschwanz/PLAYBOOK_TDS/releases)
+**Thiago Dias Schwanz** é um dos primeiros desenvolvedores *Vibe Coding* do Brasil e desenvolvedor do método *Flow Coding*. É CEO da **Jubarthi** (uma das maiores empresas de marketing médico do País) e Fundador do **BRAIN — Núcleo Brasileiro de Inteligência Artificial**.

@@ -1,0 +1,47 @@
+{
+  "name": "playbook-v02",
+  "version": "0.2.0",
+  "description": "PLAYBOOK: reprodutor pessoal de audiolivros sem servidor obrigatório",
+  "private": true,
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/serve.mjs",
+    "build:web": "node scripts/build-web.mjs",
+    "desktop": "npm run build:web && electron .",
+    "build:windows": "npm run build:web && electron-builder --win nsis --x64 --publish never",
+    "build:mac": "npm run build:web && electron-builder --mac dmg --publish never",
+    "build:linux": "npm run build:web && electron-builder --linux AppImage --publish never",
+    "mobile:android:init": "npm run build:web && npx cap add android",
+    "mobile:ios:init": "npm run build:web && npx cap add ios",
+    "mobile:sync": "npm run build:web && npx cap sync"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "app.playbook.tds",
+    "productName": "PLAYBOOK",
+    "asar": true,
+    "directories": { "output": "dist/releases" },
+    "files": [
+      "dist/web/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "win": { "target": ["nsis"] },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowElevation": false
+    },
+    "mac": { "target": ["dmg"] },
+    "linux": { "target": ["AppImage"], "category": "AudioVideo" }
+  }
+}
